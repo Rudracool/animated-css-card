@@ -1,0 +1,254 @@
+.teamSection {
+  margin-bottom: 10%;
+}
+
+.teamSection .teamHead {
+  font-size: px;
+  color: #45469b;
+  line-height: 1.2;
+  letter-spacing: 0;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.teamSection .teamtext {
+  font-size: 23.6px;
+  color: #363636;
+  line-height: 2;
+  letter-spacing: 0;
+  width: 1290px;
+  max-width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.teamSection .taem_lead .lead_item {
+  padding-bottom: 20px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.teamSection .taem_lead .lead_item .team_img {
+  width: 416px;
+  height: 520px;
+  -webkit-transition: background 0.8s;
+  transition: background 0.8s;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.teamSection .taem_lead .lead_item .team_img .name_div {
+  color: whitesmoke;
+  position: absolute;
+  width: calc(100% - 70px);
+  top: 32px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.teamSection .taem_lead .lead_item .team_img .name {
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+}
+
+.teamSection .taem_lead .lead_item .team_img .post {
+  font-size: 20px;
+  color: white;
+}
+
+.teamSection .taem_lead .lead_item .team_img .border-custom {
+  position: absolute;
+  left: 0;
+  background: white;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+.teamSection .taem_lead .lead_item .team_img .border-top {
+  width: 100%;
+  height: 1px;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  top: 0;
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+
+.teamSection .taem_lead .lead_item .team_img .border-bottom {
+  width: 100%;
+  height: 1px;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  bottom: 0;
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+}
+
+.teamSection .taem_lead .lead_item .team_img .border-left {
+  width: 1px;
+  height: 100%;
+  -webkit-transform: scaleY(0);
+          transform: scaleY(0);
+  top: 0;
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
+.teamSection .taem_lead .lead_item .team_img .border-right {
+  width: 1px;
+  height: 100%;
+  -webkit-transform: scaleY(0);
+          transform: scaleY(0);
+  top: 0;
+  left: auto;
+  right: 0;
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.card-1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("assets/about-us/img/ceo-round-416x520.png") center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/about-us/img/ceo-round-416x520.png") center center no-repeat;
+  background-size: 416px;
+}
+
+.card-1:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("assets/about-us/img/ceo-round-416x520.png") left top no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/about-us/img/ceo-round-416x520.png") left top no-repeat;
+  background-size: 800px;
+}
+
+.card-1:hover .icons {
+  opacity: 1 !important;
+}
+
+.card-1:hover .name_div {
+  opacity: 1 !important;
+}
+
+.card-2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("assets/about-us/img/director-round-416 x 520.png") center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/about-us/img/director-round-416 x 520.png") center center no-repeat;
+  background-size: 416px;
+}
+
+.card-2:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("assets/about-us/img/director-round-416 x 520.png") left top no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/about-us/img/director-round-416 x 520.png") left top no-repeat;
+  background-size: 800px;
+}
+
+.card-2:hover .icons {
+  opacity: 1 !important;
+}
+
+.card-2:hover .name_div {
+  opacity: 1 !important;
+}
+
+.card-3 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("assets/about-us/img/sumit-kapoor-round-416 x 520.png") center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/about-us/img/sumit-kapoor-round-416 x 520.png") center center no-repeat;
+  background-size: 416px;
+}
+
+.card-3:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("assets/about-us/img/sumit-kapoor-round-416 x 520.png") left top no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/about-us/img/sumit-kapoor-round-416 x 520.png") left top no-repeat;
+  background-size: 800px;
+}
+
+.card-3:hover .icons {
+  opacity: 1 !important;
+}
+
+.card-3:hover .name_div {
+  opacity: 1 !important;
+}
+
+.icons {
+  position: absolute;
+  width: 50px;
+  bottom: 32px;
+  left: 20px;
+  text-align: center;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 20px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.custom-hover {
+  position: relative;
+  display: block;
+  padding: 10px;
+  fill: #fff;
+  color: #fff;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.custom-hover:hover .border-top {
+  -webkit-transform: scaleX(1) !important;
+          transform: scaleX(1) !important;
+}
+
+.custom-hover:hover .border-bottom {
+  -webkit-transform: scaleX(1) !important;
+          transform: scaleX(1) !important;
+  -webkit-transition-delay: calc($transition-delay * 2);
+          transition-delay: calc($transition-delay * 2);
+}
+
+.custom-hover:hover .border-left {
+  -webkit-transform: scaleY(1) !important;
+          transform: scaleY(1) !important;
+  -webkit-transition-delay: calc($transition-delay * 3);
+          transition-delay: calc($transition-delay * 3);
+}
+
+.custom-hover:hover .border-right {
+  -webkit-transform: scaleY(1) !important;
+          transform: scaleY(1) !important;
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
+.linked-in-hover:hover {
+  color: #0e76a8 !important;
+}
+
+.instagram-hover:hover {
+  color: #dc2743 !important;
+}
+
+.twitter-hover:hover {
+  color: #1DA1F2 !important;
+}
+
+.facebook-hover:hover {
+  color: #3b5998 !important;
+}
+/*# sourceMappingURL=card.css.map */

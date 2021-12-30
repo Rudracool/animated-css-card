@@ -1,0 +1,246 @@
+
+$transition-duration: 0.3s;
+$transition-delay: 0.2s;
+
+.teamSection {
+	margin-bottom: 10%;
+	.teamHead {
+		font-size: px;
+		color: #45469b;
+		line-height: 1.2;
+		letter-spacing: 0;
+		text-align: center;
+		margin-bottom: 35px;
+	}
+	.teamtext {
+		font-size: 23.6px;
+		color: #363636;
+		line-height: 2;
+		letter-spacing: 0;
+		width: 1290px;
+		max-width: 100%;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.taem_lead {
+        .lead_item {
+            .team_img {
+                .name_div{
+                    color: whitesmoke;
+                    position: absolute;
+                    width: calc(100% - 70px);
+                    top: 32px;
+                    left: 0;
+					right: 0;
+					margin: 0 auto;
+                    opacity: 0;
+                    transition: opacity 1s;
+                    
+                }
+				
+                .name {
+                    font-size: 20px;
+                    color: white;
+                    font-weight: 700;
+                    
+                }
+                .post {
+                    font-size: 20px;
+                    color: white;
+                    
+                }
+                
+                
+                width: 416px;
+                height: 520px;
+                transition: background 0.8s;
+                border-radius: 20px;
+                overflow: hidden;
+                position: relative;
+                cursor: pointer;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            }
+            padding-bottom: 20px;
+            display: inline-flex;
+        }
+    }
+}
+
+.card-1{
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/about-us/img/ceo-round-416x520.png') center center no-repeat;
+            background-size: 416px;
+            &:hover{
+                background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/about-us/img/ceo-round-416x520.png') left top no-repeat;
+                background-size: 800px;
+                .icons{
+                    opacity: 1 !important;
+                }
+                .name_div{
+                    opacity: 1 !important;
+                }
+            }
+        }
+        .card-2{
+            background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/about-us/img/director-round-416 x 520.png')  center center no-repeat;
+            background-size: 416px;
+            &:hover{
+                background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/about-us/img/director-round-416 x 520.png')  left top no-repeat;
+                background-size: 800px;
+               .icons{
+                   opacity: 1 !important;
+                }
+               .name_div{
+                  opacity: 1 !important;
+                }
+
+            }
+        }
+        .card-3{
+            background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/about-us/img/sumit-kapoor-round-416 x 520.png')  center center no-repeat;
+            background-size: 416px;
+            &:hover{
+                background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/about-us/img/sumit-kapoor-round-416 x 520.png')  left top no-repeat;
+                background-size: 800px;
+               .icons{
+                   opacity: 1 !important;
+               }
+               .name_div{
+                opacity: 1 !important;
+            }
+            }
+        }
+
+        $timing        : 265ms;
+        $iconColor     : #00B5F5;
+        $accent        : #002A8F;
+        $bluefade      : #0043E0;
+        $gradient      : #00B5F5;
+        
+        @mixin transformScale($size: 1) {
+            transform: scale($size);
+            -ms-transform: scale($size);
+            -webkit-transform: scale($size);
+        }
+
+
+ 
+// .icons {
+// 	position: absolute;
+// 	width: 50px;
+//     bottom: 32px;
+//     left:20px;
+//     // top: 0;
+//     text-align: center;
+//     margin: 0 auto;
+// 	display: flex;
+// 	flex-direction: column;
+//     font-size: 20px;
+// 	justify-content: space-around;
+//     // opacity: 0;
+// 	// transition: opacity 1s;
+// }  
+// .custom-hover{
+//     display: inline-block;
+//     position: relative;
+//     // display: block;
+//     padding: 15px;
+//     fill: #fff;
+// 	color: #fff;
+//     transition: all 0.5s;
+//     transition: all $timing ease-out;
+   
+//     &:before {
+//         @include transformScale();
+//         content: " ";
+//         width: 50px;
+//         height: 50px;
+//         border-radius: 100%;
+//         position: absolute;
+//         top: -10px;
+//         left: 0;
+//         // bottom: 0;
+//         // top: 25px;
+//         display: inline-block;
+//         background: linear-gradient(45deg, $iconColor, $accent);
+//         transition: all $timing ease-out;
+       
+//     }
+//     &:hover:before {
+
+//         transform: scale(0);
+//         transition: all $timing ease-in;
+//     }
+//     &:hover i {
+//         @include transformScale(2.2);
+//         color: $iconColor;
+//         background: -webkit-linear-gradient(45deg, $iconColor, $accent);
+//         -webkit-background-clip: text;
+//         -webkit-text-fill-color: transparent;
+//         transition: all $timing ease-in;
+//     }
+// }
+.icons{
+    position: absolute;
+    bottom: 32px;
+        left:20px;
+        ul{
+            display: flex;
+            flex-direction: column;
+        }
+        
+  
+}
+.social-icons {
+    padding: 0;
+    list-style: none;
+    margin: 1em;
+  
+    li {
+        display: inline-block;
+        margin: 0.15em;
+        position: relative;
+        
+        font-size: 1.2em;
+
+    }
+
+    i {
+        color: #fff;
+        position: absolute;
+        top: 15px;
+        left: 17px;
+        transition: all $timing ease-out;
+    }
+
+    a {
+        display: inline-block;
+      
+        &:before {
+            @include transformScale();
+            content: " ";
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+            display: block;
+            background: linear-gradient(45deg, $iconColor, $accent);
+            // background: transparent;
+            transition: all $timing ease-out;
+        }
+        
+        &:hover:before {
+            transform: scale(0);
+            transition: all $timing ease-in;
+        }
+        
+        &:hover i {
+            @include transformScale(1.5);
+            color: $iconColor;
+            background: -webkit-linear-gradient(45deg, $iconColor, $accent);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            transition: all $timing ease-in;
+        }
+    }
+  
+}
+

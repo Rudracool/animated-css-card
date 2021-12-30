@@ -1,0 +1,203 @@
+.teamSection {
+  margin-bottom: 10%;
+}
+
+.teamSection .teamHead {
+  font-size: px;
+  color: #45469b;
+  line-height: 1.2;
+  letter-spacing: 0;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.teamSection .teamtext {
+  font-size: 23.6px;
+  color: #363636;
+  line-height: 2;
+  letter-spacing: 0;
+  width: 1290px;
+  max-width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.teamSection .taem_lead .lead_item {
+  padding-bottom: 20px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.teamSection .taem_lead .lead_item .team_img {
+  width: 416px;
+  height: 520px;
+  -webkit-transition: background 0.8s;
+  transition: background 0.8s;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.teamSection .taem_lead .lead_item .team_img .name_div {
+  color: whitesmoke;
+  position: absolute;
+  width: calc(100% - 70px);
+  top: 32px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.teamSection .taem_lead .lead_item .team_img .name {
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+}
+
+.teamSection .taem_lead .lead_item .team_img .post {
+  font-size: 20px;
+  color: white;
+}
+
+.card-1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("assets/about-us/img/ceo-round-416x520.png") center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/about-us/img/ceo-round-416x520.png") center center no-repeat;
+  background-size: 416px;
+}
+
+.card-1:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("assets/about-us/img/ceo-round-416x520.png") left top no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/about-us/img/ceo-round-416x520.png") left top no-repeat;
+  background-size: 800px;
+}
+
+.card-1:hover .icons {
+  opacity: 1 !important;
+}
+
+.card-1:hover .name_div {
+  opacity: 1 !important;
+}
+
+.card-2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("assets/about-us/img/director-round-416 x 520.png") center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/about-us/img/director-round-416 x 520.png") center center no-repeat;
+  background-size: 416px;
+}
+
+.card-2:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("assets/about-us/img/director-round-416 x 520.png") left top no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/about-us/img/director-round-416 x 520.png") left top no-repeat;
+  background-size: 800px;
+}
+
+.card-2:hover .icons {
+  opacity: 1 !important;
+}
+
+.card-2:hover .name_div {
+  opacity: 1 !important;
+}
+
+.card-3 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("assets/about-us/img/sumit-kapoor-round-416 x 520.png") center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/about-us/img/sumit-kapoor-round-416 x 520.png") center center no-repeat;
+  background-size: 416px;
+}
+
+.card-3:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("assets/about-us/img/sumit-kapoor-round-416 x 520.png") left top no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/about-us/img/sumit-kapoor-round-416 x 520.png") left top no-repeat;
+  background-size: 800px;
+}
+
+.card-3:hover .icons {
+  opacity: 1 !important;
+}
+
+.card-3:hover .name_div {
+  opacity: 1 !important;
+}
+
+.icons {
+  position: absolute;
+  bottom: 32px;
+  left: 20px;
+}
+
+.icons ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.social-icons {
+  padding: 0;
+  list-style: none;
+  margin: 1em;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin: 0.15em;
+  position: relative;
+  font-size: 1.2em;
+}
+
+.social-icons i {
+  color: #fff;
+  position: absolute;
+  top: 15px;
+  left: 17px;
+  -webkit-transition: all 265ms ease-out;
+  transition: all 265ms ease-out;
+}
+
+.social-icons a {
+  display: inline-block;
+}
+
+.social-icons a:before {
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  content: " ";
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: block;
+  background: linear-gradient(45deg, #00B5F5, #002A8F);
+  -webkit-transition: all 265ms ease-out;
+  transition: all 265ms ease-out;
+}
+
+.social-icons a:hover:before {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all 265ms ease-in;
+  transition: all 265ms ease-in;
+}
+
+.social-icons a:hover i {
+  transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  color: #00B5F5;
+  background: -webkit-linear-gradient(45deg, #00B5F5, #002A8F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-transition: all 265ms ease-in;
+  transition: all 265ms ease-in;
+}
+/*# sourceMappingURL=card2.css.map */
